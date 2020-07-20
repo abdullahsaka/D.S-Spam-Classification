@@ -4,7 +4,7 @@ library(SparseM)
 
 # Read train file
 require(Matrix)
-dataLines_1 <- readLines("/Users/sakahome/Rprojects/spam_hw2/articles.train")
+dataLines_1 <- readLines("~/Rprojects/spam_hw2/articles.train")
 m <- length(dataLines_1)
 dataTokens_train = strsplit(dataLines_1, "[: ]")
 
