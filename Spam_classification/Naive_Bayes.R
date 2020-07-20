@@ -5,7 +5,7 @@ library(naivebayes)
 
 # Read train file
 require(Matrix)
-dataLines_1 <- readLines("/Users/sakahome/Rprojects/spam_hw2&3/articles.train")
+dataLines_1 <- readLines("~/Rprojects/spam_hw2&3/articles.train")
 m <- length(dataLines_1)
 dataTokens_train = strsplit(dataLines_1, "[: ]")
 Y_train = sapply(dataTokens_train, function(example) {as.numeric(example[1])})
