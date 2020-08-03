@@ -1,3 +1,5 @@
+## Text Classification
+
 This is the project that I did in Machine Learning Course as part of my Master's Program.
 
 Instructions:
